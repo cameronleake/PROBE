@@ -11,7 +11,7 @@ require 'mina/git'
 set :domain, '103.42.224.175'
 set :user, 'deployer'
 set :deploy_to, "/home/#{user}/apps"
-set :repository, 'git@github.org:cameronleake/probe.git'
+set :repository, 'git@github.com:cameronleake/probe.git'
 set :branch, 'master'
 
 # Manually create these paths in shared/ (eg: shared/config/database.yml) in your server.
