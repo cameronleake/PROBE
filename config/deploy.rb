@@ -2,6 +2,8 @@ require 'mina/bundler'
 require 'mina/rails'
 require 'mina/git'
 
+set :port, '22 -A'
+
 # Basic settings:
 #   domain       - The hostname to SSH to.
 #   deploy_to    - Path to deploy into.
